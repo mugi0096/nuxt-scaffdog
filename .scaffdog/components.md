@@ -31,7 +31,7 @@ export default class {{ inputs.name | pascal }} extends Vue {}
 # `{{ inputs.name | pascal }}/{{ inputs.name | pascal }}.stories.js`
 
 ```javascript
-import {{ inputs.name | pascal }} from '@/components/{{ inputs.name | pascal }}/{{ inputs.name | pascal }}.vue';
+import {{ inputs.name | pascal }} from './{{ inputs.name | pascal }}.vue';
 
 export default {
   title: '{{ inputs.name | pascal }}',
